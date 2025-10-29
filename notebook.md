@@ -148,6 +148,16 @@ Scanner | Creates a scanner object to take input from user | Scanner in = new Sc
 
 
 
+| Maximum int | The max value an int can hold: 2147483647 |
+Integer. MAX_VALUE | | | | Minimum int |
+The minimum value an int can hold: -2147483648 |
+Integer.MIN_VALUE | | | integer overflow |
+Integer.MAX_VALUE + 1 == MIN_VALUE, it wraps around | | |
+| Integer underflow Integer.MIN_VALUE-1 == MAX_VALUE, it wraps around|
+| round-off error | an approx. of the actual value, result is rounded to the nearest value that fits within the available bits
+
+
+
 
 
 
